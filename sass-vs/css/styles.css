@@ -1,0 +1,16 @@
+.bg-menu {
+  background-color: #643200;
+}
+
+.jumbotron img {
+  width: 100%;
+}
+
+.jumbotron h1 {
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  font-weight: 500;
+}
+/*# sourceMappingURL=styles.css.map */
