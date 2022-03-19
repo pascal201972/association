@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.font-smooch {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 40px;
+}
+
+p, li, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 600;
+}
+
 .bg-menu {
   background-color: #643200;
 }
@@ -7,10 +26,83 @@
 }
 
 .jumbotron h1 {
+  font-weight: 500;
+}
+
+.jumbotron article, .jumbotron h1 {
   position: absolute;
   color: #fff;
   padding: 20px;
   width: 100%;
-  font-weight: 500;
+}
+
+main {
+  margin: 20px;
+}
+
+main .action {
+  border-left: 3px solid #643200;
+}
+
+main section h2 {
+  color: #643200;
+}
+
+main section img {
+  padding: 0 !important;
+  width: 100%;
+  border: 1px solid #643200;
+}
+
+main section p {
+  font-size: 22px;
+}
+
+main section li {
+  font-size: 20px;
+}
+
+aside h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+aside article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin: 40px 0;
+}
+
+aside article a.actu {
+  font-size: 16px;
+  color: black;
+  padding-left: 5px;
+}
+
+.content-actu {
+  margin-top: 30px;
+}
+
+.content-actu h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+aside {
+  background-color: #eee;
+}
+
+section article {
+  margin: 0 auto;
+}
+
+footer {
+  height: 300px;
+  margin-top: 50px;
+  background-color: #291404;
 }
 /*# sourceMappingURL=styles.css.map */
