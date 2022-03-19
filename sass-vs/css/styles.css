@@ -5,6 +5,51 @@
   font-size: 40px;
 }
 
+.logo {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo p {
+  font-size: 75%;
+  color: #ccc;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+
+.logo span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo svg {
+  width: 30%;
+  height: 30%;
+}
+
+.box-logo-footer {
+  width: 120px;
+}
+
+.box-logo-menu {
+  width: 100px;
+}
+
 p, li, h3, h4 {
   font-family: 'Roboto', sans-serif;
 }
@@ -44,22 +89,26 @@ main .action {
   border-left: 3px solid #643200;
 }
 
-main section h2 {
+main .content h2 {
   color: #643200;
 }
 
-main section img {
+main .content img {
   padding: 0 !important;
   width: 100%;
   border: 1px solid #643200;
 }
 
-main section p {
+main .content p {
   font-size: 22px;
 }
 
-main section li {
+main .content li {
   font-size: 20px;
+}
+
+aside {
+  border: 1px solid #bbb;
 }
 
 aside h3 {
@@ -92,6 +141,10 @@ aside article a.actu {
   border-bottom: 1px solid black;
 }
 
+.content-actu img {
+  width: 100%;
+}
+
 aside {
   background-color: #eee;
 }
@@ -104,5 +157,30 @@ footer {
   height: 300px;
   margin-top: 50px;
   background-color: #291404;
+}
+
+footer span, footer a {
+  color: #ccc;
+}
+
+footer .footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 110px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer-menu .noussuivre {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=styles.css.map */

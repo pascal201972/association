@@ -4,7 +4,19 @@
     font-family: 'Smooch Sans', sans-serif;
     font-size:40px;
 }
-
+.logo
+{
+    width:100%; margin:0 auto;display:flex;justify-content:center; flex-direction:column;
+    p{font-size:75%;color:#ccc; border-top:2px solid #ccc; border-bottom:2px solid #ccc;text-align:center;}
+    span{display:flex;justify-content:center;}
+    svg{width:30%;height:30%;}
+}
+.box-logo-footer{
+    width:120px;
+}
+.box-logo-menu{
+    width:100px;
+}
 p,li,h3,h4{
     font-family: 'Roboto', sans-serif;
 }
@@ -42,7 +54,7 @@ main{
         border-left:3px solid $colorBgMaron;
     }
 }
-main section {
+main .content {
     h2{
         color:$colorBgMaron;
     }
@@ -59,7 +71,10 @@ main section {
         }
         
 }
+
+
 aside {
+    border: 1px solid #bbb;
     h3{
         text-align: center;
     margin: 20px;
@@ -84,6 +99,7 @@ aside {
         padding-bottom: 5px;
         border-bottom: 1px solid black;
     }
+    img{width:100%}
 }
 aside{
     background-color: #eee;
@@ -94,9 +110,24 @@ section article{
 }
 
 footer{
+    span,a{ color:#ccc;}
+   
     height:300px;
     margin-top:50px;
     background-color: rgb(41, 20, 4);
+    .footer-menu{
+        display: flex;
+        height:110px;
+        align-items: center;
+        justify-content: space-around;
+        .noussuivre{
+          
+            width:200px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+    }
 }
 @media screen {
     
