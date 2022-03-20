@@ -1,22 +1,32 @@
+$colorBgMaron:#643200;
+$colorMaronFonce:rgb(41, 20, 4);
+$colorSahara:#b88a45;
+$colorSaharaHover:#c8a86c;
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .font-smooch{
     font-family: 'Smooch Sans', sans-serif;
     font-size:40px;
 }
-.logo
-{
-    width:100%; margin:0 auto;display:flex;justify-content:center; flex-direction:column;
-    p{font-size:75%;color:#ccc; border-top:2px solid #ccc; border-bottom:2px solid #ccc;text-align:center;}
-    span{display:flex;justify-content:center;}
-    svg{width:30%;height:30%;}
+
+
+
+.navbar-dark .navbar-nav .nav-link{
+    border-bottom: 2px solid $colorBgMaron;
+    color:$colorSahara;
+    font-size:18px;
+    &.active{
+        border-bottom: 2px solid #ccc;
+    }
+    
 }
-.box-logo-footer{
-    width:120px;
+.link{
+    color:$colorSahara;
+    &:hover{
+        color:#ccc;
+    }
 }
-.box-logo-menu{
-    width:100px;
-}
+
 p,li,h3,h4{
     font-family: 'Roboto', sans-serif;
 }
@@ -26,27 +36,18 @@ h3{
 h4{
     font-weight:600;
 }
-$colorBgMaron:#643200;
+
+.btn-sahara{
+    background-color: $colorSahara;
+    &:hover{
+background-color: $colorSaharaHover;
+color:$colorMaronFonce;
+    }
+}
 
 .bg-menu{background-color: $colorBgMaron;}
 
-.jumbotron{
-    img{
-        width:100%;
-    }
-    h1{
-        font-weight: 500;
-    }
-    article ,h1{
-        position: absolute;
-        color: #fff;
-        padding: 20px;
-        width: 100%;
-      
-       
-    }
-    
-}
+
 main{
     margin:20px;
     .action{
@@ -54,61 +55,18 @@ main{
         border-left:3px solid $colorBgMaron;
     }
 }
-main .content {
-    h2{
-        color:$colorBgMaron;
-    }
-    img {
-        padding:0!important;
-        width:100%;
-        border: 1px solid $colorBgMaron;
-    }
-        p{
-            font-size: 22px;
-        }
-        li{
-            font-size: 20px;   
-        }
-        
+.content  p{
+    font-size: 22px;
+}
+img {
+    padding:0!important;
+    width:100%;
+    border: 1px solid $colorBgMaron;
 }
 
 
-aside {
-    border: 1px solid #bbb;
-    h3{
-        text-align: center;
-    margin: 20px;
-}
-    
-    article{
-    display:flex;
-    justify-content: left;
-    margin:40px 0;
-    a.actu{
-        font-size:16px;
-        color:black;
-        padding-left:5px;
-        
-    }
-}
-}
 
-.content-actu{
-    margin-top: 30px;
-    h3{
-        padding-bottom: 5px;
-        border-bottom: 1px solid black;
-    }
-    img{width:100%}
-}
-aside{
-    background-color: #eee;
-}
-
-section article{
-    margin:0 auto;
-}
-
+/*FOOTER */
 footer{
     span,a{ color:#ccc;}
    
@@ -129,6 +87,12 @@ footer{
         }
     }
 }
+@import '_logo.scss';
+@import '_accueil.scss';
+@import '_actualite.scss';
+@import '_responsive.scss';
+
+
 @media screen {
     
 }

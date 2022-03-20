@@ -1,0 +1,13 @@
+.logo
+{
+    width:100%; margin:0 auto;display:flex;justify-content:center; flex-direction:column;
+    p{font-size:75%;color:$colorSahara; border-top:2px solid $colorSahara; border-bottom:2px solid $colorSahara;text-align:center;}
+    span{display:flex;justify-content:center;}
+    svg{width:30%;height:30%;}
+}
+.box-logo-footer{
+    width:120px;
+}
+.box-logo-menu{
+    width:100px;
+}

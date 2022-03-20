@@ -1,0 +1,14 @@
+.actualite h2{
+ font-size:25px;   
+ border-bottom: 2px solid $colorSahara;
+ border-top: 2px solid $colorSahara;
+
+}
+article{
+    margin-bottom:40px;
+}
+article + div{
+    display: flex;
+    justify-content: space-around;
+}
+
