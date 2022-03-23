@@ -60,6 +60,10 @@ main .action {
   font-size: 22px;
 }
 
+.content li {
+  font-size: 20px;
+}
+
 img {
   padding: 0 !important;
   width: 100%;
@@ -163,10 +167,6 @@ footer .footer-menu .noussuivre {
   border-bottom: 1px solid #643200;
 }
 
-.accueil main .content li {
-  font-size: 20px;
-}
-
 .content-actu {
   margin-top: 30px;
 }
@@ -225,6 +225,10 @@ aside article a.actu:hover {
   color: #643200;
 }
 
+.actualite h1 {
+  font-size: 60px;
+}
+
 .actualite h2 {
   font-size: 25px;
   border-bottom: 2px solid #b88a45;
@@ -253,6 +257,9 @@ article + div {
   }
   footer .footer-menu div {
     margin-top: 20px;
+  }
+  .content p {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
